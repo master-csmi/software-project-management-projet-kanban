@@ -3,5 +3,5 @@
 ** Group
 
  - name 1
- - name 2
+ - Céline Lorentz
  - name 3
