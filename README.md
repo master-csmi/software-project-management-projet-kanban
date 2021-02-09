@@ -10,4 +10,4 @@
 
  - Anita Klein
 
- - Céline Lorentz
+ - Celine Lorentz 
