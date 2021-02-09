@@ -10,9 +10,8 @@
 
  - Anita Klein
 
-
- - Céline Lorentz
+- Céline Lorentz
 
  -Laurène Guidet
-=======
+
  
