@@ -1,7 +1,7 @@
 # Project Kanban
 
-** Group
+## Group
 
- - name 1
+ - Anita Klein
  - name 2
  - name 3
