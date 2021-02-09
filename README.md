@@ -3,5 +3,5 @@
 ** Group
 
  - name 1
- - name 2
+ - Quentin Dumont
  - name 3
