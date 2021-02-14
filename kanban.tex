@@ -1,14 +1,31 @@
-\documentclass{beamer}
-
+\documentclass[10pt]{beamer}
+\usetheme{Marburg}
+\graphicspath{{Arquivos/}}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\author{Céline Lorentz - Anita Klein - Quentin Dumont - Mariam gregoryam - Laurène }
+\newcommand{\TT}{Kanban method}
+\newcommand{\PI}{I - Introduction}
+\newcommand{\PII}{II - Kanban Principles and How it works ?}
+\newcommand{\PIII}{III - Advantages}
+\newcommand{\PIV}{IV - Disavantages}
+\newcommand{\PV}{V - Conclusion}
 \title{The Kanban Method}
+
 \begin{document}
     
-\begin{frame}
+\begin{frame}{\PI}
 
     \maketitle
 
 \end{frame}
-\begin{frame}
+\section{\PI} 
+\begin{frame}{Introduction}{\PI} 
     \begin{itemize}
         \item 'Kanban' is a Japanese word meaning billboard \textbackslash signboard. 
         \item The kanban method comes from the car industry in Japan.
@@ -20,7 +37,38 @@
     \end{itemize}  
 
 \end{frame}
-\begin{frame}{The Concept}
+\section{\PII} 
+\begin{frame}{Kanban Principles}{\PII}
+    \begin{itemize}
+        \item 'Kanban' method is a method of a "just-in-time" production 
+        \item Wanted quantities.
+        \item Limiting production 
+        \item Produce to meet the demand
+    \end{itemize}  
+\end{frame}
+\begin{frame}
+\quad \quad  \quad \quad \quad \quad 
+\includegraphics[width=5cm, height=4cm]{kanban.PNG}
+    \begin{itemize}
+        \item the A's machine products 10 empty bottles per hour
+        \item the B's machine fills 5 bottles per hour
+        \item The C machine adds 2 capsules per hour
+    \end{itemize}  
+\end{frame}
+
+\begin{frame}
+    \begin{itemize}
+        \item Visualize the workflow
+        \item Limiting the number of tasks 
+        \item manage the flow
+        \item Make policy explicit (unambiguous, direct and clear)
+        \item Feedback loops
+        \item Improve collaboratively 
+
+    \end{itemize}  
+\end{frame}
+
+\begin{frame}{The Concept}{\PII}
     \begin{itemize}
         \item a non-disruptive evolutionary change management system
         \item implementing many minor changes rather than a large one
@@ -30,11 +78,11 @@
       \centering
    \includegraphics[scale=0.5]{ph.png}
       \caption{Task's board}
-    \end{frame}
-\end{document}
 
 \end{frame}
-\begin{frame}{Advantages}
+
+\section{\PIII} 
+\begin{frame}{Advantages}{\PIII}
     \begin{itemize}
         \item avoid waste
         \item do on-demand production
@@ -44,9 +92,22 @@
     \end{itemize}
 
 \end{frame}
-\begin{frame}{Disadvantages}
+
+\section{\PIV} 
+\begin{frame}{Disadvantages}{\PIV}
     \begin{itemize}
         \item this method needs a good organization
         \item no anticipation
         \item not adapted for a complex and unrepetitive production
     \end{itemize}
+\end{frame}
+
+\section{\PV} 
+
+
+\begin{frame}{Conclusion}{\PV}
+  
+
+\end{frame}
+
+\end{document}
